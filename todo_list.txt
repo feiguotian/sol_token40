@@ -1,0 +1,22 @@
+# TODO LIST - solana-token-listener-gui
+
+## 第一阶段（数据增强）
+[ ] fallback 到 quote-api.jup.ag/v6/markets，支持 API Key
+[ ] 兼容 quote-api 返回字段
+[ ] GUI 添加数据源选择框（lite / quote）
+
+## 第二阶段（功能增强）
+[ ] GUI 添加自动刷新功能（支持设置刷新间隔）
+[ ] 增加成交量 / 成交额排行榜
+[ ] 表格支持点击排序
+
+## 第三阶段（用户体验）
+[ ] Token 图标请求失败自动重试
+[ ] Token 图标本地缓存
+[ ] 导出 CSV 功能
+[ ] API Key 从 config.txt 读取
+[ ] GUI 美化 + 状态栏 + 时间戳显示
+
+## 其它
+[ ] 多语言支持（中/英文）
+[ ] 完整项目文档（README.md）
